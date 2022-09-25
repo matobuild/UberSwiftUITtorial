@@ -14,6 +14,8 @@
 		483DF22728DF507300617362 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483DF22628DF507300617362 /* UberMapViewRepresentable.swift */; };
 		483DF22928DF51CF00617362 /* learnWhat?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483DF22828DF51CF00617362 /* learnWhat?.swift */; };
 		483DF22B28DF5E1A00617362 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483DF22A28DF5E1A00617362 /* LocationManager.swift */; };
+		483FAA8528E09667008613FE /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FAA8428E09667008613FE /* LocationSearchActivationView.swift */; };
+		483FAA8728E09AA6008613FE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FAA8628E09AA6008613FE /* MapViewActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		483DF22628DF507300617362 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 		483DF22828DF51CF00617362 /* learnWhat?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "learnWhat?.swift"; sourceTree = "<group>"; };
 		483DF22A28DF5E1A00617362 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		483FAA8428E09667008613FE /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		483FAA8628E09AA6008613FE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,8 @@
 		483DF21E28DF4F8400617362 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				483DF22328DF4FF400617362 /* ViewModel */,
-				483DF22228DF4FF400617362 /* Views */,
+				483FAA8028E095F2008613FE /* LocationSearch */,
+				483FAA7F28E095BF008613FE /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -121,16 +125,49 @@
 			children = (
 				483DF22428DF501B00617362 /* HomeView.swift */,
 				483DF22628DF507300617362 /* UberMapViewRepresentable.swift */,
+				483FAA8628E09AA6008613FE /* MapViewActionButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		483DF22328DF4FF400617362 /* ViewModel */ = {
+		483FAA7E28E095B1008613FE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ViewModel;
-			path = "New Group/ViewModel";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		483FAA7F28E095BF008613FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				483FAA7E28E095B1008613FE /* ViewModel */,
+				483DF22228DF4FF400617362 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		483FAA8028E095F2008613FE /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				483FAA8128E0961C008613FE /* ViewModel */,
+				483FAA8328E0962F008613FE /* VIews */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		483FAA8128E0961C008613FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		483FAA8328E0962F008613FE /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				483FAA8428E09667008613FE /* LocationSearchActivationView.swift */,
+			);
+			path = VIews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +245,8 @@
 				483DF22B28DF5E1A00617362 /* LocationManager.swift in Sources */,
 				483DF22728DF507300617362 /* UberMapViewRepresentable.swift in Sources */,
 				483DF22528DF501B00617362 /* HomeView.swift in Sources */,
+				483FAA8528E09667008613FE /* LocationSearchActivationView.swift in Sources */,
+				483FAA8728E09AA6008613FE /* MapViewActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
