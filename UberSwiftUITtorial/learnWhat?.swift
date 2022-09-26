@@ -8,3 +8,4 @@
 //USE UIKIT in SWIFTUI
 //MAPKIT
 //-get user location and also draw map from ui kit to swiftui
+//-searchquery on with realtime updat for result
