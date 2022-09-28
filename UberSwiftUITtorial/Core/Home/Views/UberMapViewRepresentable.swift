@@ -14,6 +14,7 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     
     let mapView = MKMapView()
     let locationManager = LocationManager()
+    @EnvironmentObject var locationViewModel: LocationSearchViewModel
     
     //create the whole map on screen
     func makeUIView(context: Context) -> some UIView {
@@ -27,7 +28,9 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        
+        if let selectedLocation = locationViewModel.selectedLocation {
+            print("DEBUG: Selected locaton in map view \(selectedLocation)")
+        }
     }
     
     func makeCoordinator() -> MapCoordinator {
