@@ -103,7 +103,7 @@ extension UberMapViewRepresentable {
             parent.mapView.selectAnnotation(anno, animated: true)
             
             //adjust the screen to show the annotation
-            parent.mapView.showAnnotations(parent.mapView.annotations, animated: true)
+//            parent.mapView.showAnnotations(parent.mapView.annotations, animated: true)
         }
         
             //create a polyline from start to end
@@ -112,6 +112,11 @@ extension UberMapViewRepresentable {
             getDestinationRoute(from: userLocationCoordinate,
                                 to: coordinate) { route in
                 self.parent.mapView.addOverlay(route.polyline)
+                //make the rectangle size to fit the top.
+                let rect = self.parent.mapView.mapRectThatFits(route.polyline.boundingMapRect,
+                                                               edgePadding: .init(top: 64, left: 32, bottom: 500, right: 32))
+                self.parent.mapView.setRegion(MKCoordinateRegion(rect), animated: true)
+                
             }
         }
         
