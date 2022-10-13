@@ -35,7 +35,27 @@ case uberXL
             return "uber-x"
         }
     }
+    var baseFare: Double {
+        switch self {
+        case .uberX:
+            return 5
+        case .black:
+            return 20
+        case .uberXL:
+            return 10
+        }
+    }
     
-    
-    
+    func computePrice(for distanceInMeters :Double) -> Double {
+        let distaceInMiles = distanceInMeters / 1600
+        
+        switch self {
+        case .uberX:
+            return (distaceInMiles * 1.5) + baseFare
+        case .black:
+            return  (distaceInMiles * 2.0) + baseFare
+        case .uberXL:
+            return (distaceInMiles * 1.75) + baseFare
+        }
+    }
 }

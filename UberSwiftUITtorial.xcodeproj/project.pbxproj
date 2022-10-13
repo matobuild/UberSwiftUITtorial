@@ -21,6 +21,7 @@
 		483FAA8728E09AA6008613FE /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FAA8628E09AA6008613FE /* MapViewActionButton.swift */; };
 		4871FBAB28F5B79100B0D280 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871FBAA28F5B79100B0D280 /* RideType.swift */; };
 		4874156F28F03684008C52FA /* MapViewState .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874156E28F03683008C52FA /* MapViewState .swift */; };
+		48ACA9F228F85B640069558A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACA9F128F85B640069558A /* Double.swift */; };
 		48E5308F28F1D97A007836DD /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5308E28F1D97A007836DD /* RideRequestView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		483FAA8628E09AA6008613FE /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 		4871FBAA28F5B79100B0D280 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
 		4874156E28F03683008C52FA /* MapViewState .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewState .swift"; sourceTree = "<group>"; };
+		48ACA9F128F85B640069558A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		48E5308E28F1D97A007836DD /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 		483DF21F28DF4F8B00617362 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				48ACA9F128F85B640069558A /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				483DF22B28DF5E1A00617362 /* LocationManager.swift in Sources */,
 				482D9AA128E1307F00603129 /* LocationSearchViewModel.swift in Sources */,
 				483DF22728DF507300617362 /* UberMapViewRepresentable.swift in Sources */,
+				48ACA9F228F85B640069558A /* Double.swift in Sources */,
 				483DF22528DF501B00617362 /* HomeView.swift in Sources */,
 				482D9A9D28E09D2700603129 /* LocationSearchView.swift in Sources */,
 				482D9A9F28E0A28600603129 /* LocationSearchResultCell.swift in Sources */,
