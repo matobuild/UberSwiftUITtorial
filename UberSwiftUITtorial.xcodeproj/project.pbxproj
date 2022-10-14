@@ -24,6 +24,7 @@
 		48ACA9F228F85B640069558A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACA9F128F85B640069558A /* Double.swift */; };
 		48E5308F28F1D97A007836DD /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5308E28F1D97A007836DD /* RideRequestView.swift */; };
 		48FACFCB28F9275500AF8753 /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FACFCA28F9275500AF8753 /* UberLocation.swift */; };
+		48FACFCD28F9376100AF8753 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FACFCC28F9376100AF8753 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		48ACA9F128F85B640069558A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		48E5308E28F1D97A007836DD /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
 		48FACFCA28F9275500AF8753 /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
+		48FACFCC28F9376100AF8753 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				48ACA9F128F85B640069558A /* Double.swift */,
+				48FACFCC28F9376100AF8753 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				483DF20B28DF4F3D00617362 /* UberSwiftUITtorialApp.swift in Sources */,
 				483DF22B28DF5E1A00617362 /* LocationManager.swift in Sources */,
 				482D9AA128E1307F00603129 /* LocationSearchViewModel.swift in Sources */,
+				48FACFCD28F9376100AF8753 /* Color.swift in Sources */,
 				483DF22728DF507300617362 /* UberMapViewRepresentable.swift in Sources */,
 				48ACA9F228F85B640069558A /* Double.swift in Sources */,
 				483DF22528DF501B00617362 /* HomeView.swift in Sources */,

@@ -40,10 +40,14 @@ struct UberMapViewRepresentable: UIViewRepresentable {
         case .locationSelected:
             if let coordinate = locationViewModel.selectedUberLocation?.coordinate {
         //        print("DEBUG: Selected coordinatef in map view \(coordinate)")
+                print("DEBUG: Adding stuff to map...")
                 context.coordinator.addAndSelectAnnotation(withCoordinate: coordinate)
                 context.coordinator.configurePolyLine(withDestinationCoordinate: coordinate)
             }
             break
+        case .polylineAdded:
+            break
+            
         }
     }
     
@@ -112,6 +116,7 @@ extension UberMapViewRepresentable {
             parent.locationViewModel.getDestinationRoute(from: userLocationCoordinate,
                                                          to: coordinate) { route in
                 self.parent.mapView.addOverlay(route.polyline)
+                self.parent.mapState = .polylineAdded
                 //make the rectangle size to fit the top.
                 let rect = self.parent.mapView.mapRectThatFits(route.polyline.boundingMapRect,
                                                                edgePadding: .init(top: 64, left: 32, bottom: 500, right: 32))
