@@ -23,6 +23,7 @@
 		4874156F28F03684008C52FA /* MapViewState .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874156E28F03683008C52FA /* MapViewState .swift */; };
 		48ACA9F228F85B640069558A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ACA9F128F85B640069558A /* Double.swift */; };
 		48E5308F28F1D97A007836DD /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E5308E28F1D97A007836DD /* RideRequestView.swift */; };
+		48FACFCB28F9275500AF8753 /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FACFCA28F9275500AF8753 /* UberLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		4874156E28F03683008C52FA /* MapViewState .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewState .swift"; sourceTree = "<group>"; };
 		48ACA9F128F85B640069558A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		48E5308E28F1D97A007836DD /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		48FACFCA28F9275500AF8753 /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				4874156E28F03683008C52FA /* MapViewState .swift */,
 				4871FBAA28F5B79100B0D280 /* RideType.swift */,
+				48FACFCA28F9275500AF8753 /* UberLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				48ACA9F228F85B640069558A /* Double.swift in Sources */,
 				483DF22528DF501B00617362 /* HomeView.swift in Sources */,
 				482D9A9D28E09D2700603129 /* LocationSearchView.swift in Sources */,
+				48FACFCB28F9275500AF8753 /* UberLocation.swift in Sources */,
 				482D9A9F28E0A28600603129 /* LocationSearchResultCell.swift in Sources */,
 				48E5308F28F1D97A007836DD /* RideRequestView.swift in Sources */,
 				4874156F28F03684008C52FA /* MapViewState .swift in Sources */,
